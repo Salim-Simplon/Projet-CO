@@ -1,0 +1,406 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* App */
+
+.App {
+  text-align: center;
+  font-family: fantasy;
+}
+
+.Nav {
+  display: flex;
+  background-color: #5ac3ddde;
+  height: 75px;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  align-items: center;
+}
+
+.Lo {
+  width: 10%;
+  color: white;
+  font-size: xxx-large;
+  margin: 0 3% 0 6%;
+  padding: 0px;
+  text-decoration: none !important;
+}
+
+.Lo:hover {
+  color: rgb(0, 0, 0);
+}
+
+.link a {
+  list-style: none;
+  padding-left: 19px;
+  color: white;
+  text-decoration: none !important;
+  font-size: medium;
+  margin-top: 10% 
+}
+
+.link a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.App-footer {
+  background-color: #1caed3de;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.citation {
+  font-style: italic;
+  font-size: 130%;
+  margin-top: 2%;
+  color: #000000;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Nav {
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-top: 0;
+  }
+  .App-footer {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .citation {
+    padding-top: 3%;
+  }
+  .Lo {
+    font-size: xx-large;
+    margin: 0 55% 0 50%;
+  }
+  .link a {
+    padding-left: 40px;
+  }
+  .cover-img div {
+    font-size: 150% !important;
+    font-weight: bold;
+    
+    padding: 5%;
+    background-color: #ffffffb2;
+  }
+  .re-size {
+    margin-bottom: 20% !important;
+  }
+}
+
+h1 {
+  font-size: 300%;
+  text-transform: uppercase;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.carte {
+  border-bottom: #000000 solid 3px;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 6px 6px 12px #221313;
+  margin: 2%;
+  padding: 1%;
+  width: 250px;
+  text-transform: uppercase;
+}
+
+.carte-space {
+  margin: 10px 0 15px 0;
+}
+
+.menu {
+  width: 210px;
+  height: 210px;
+  border-radius: 5%;
+  transition: all 0.8s;
+}
+
+/* .menu:hover {
+  width: 220px;
+} */
+
+.disponible{
+  font-weight: bold;
+  font-size: larger;
+  color: green;
+}
+
+button {
+  font-size: medium;
+  background-color: rgb(0, 195, 255);
+  font-family: fantasy;
+  border: #251a1a5e solid;
+  border-radius: 7px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 6px 6px 12px #221313;
+  margin-bottom: 5px;
+}
+
+button:hover {
+  background-color: rgb(23, 128, 160);
+  color: aliceblue;
+}
+
+.Sin {
+  background-image: url(https://cache.magicmaman.com/data/photo/w1000_c18/4l/istock_000077315953_medium.jpg);
+  background-position: center;
+  padding: 5.5%;
+  background-size: cover;
+}
+
+.Sin2 {
+  background-image: url(https://www.babymam.tn/blog/wp-content/uploads/2019/06/indispensables-bebe.jpg);
+  background-position: center;
+  padding: 5.5%;
+  background-size: cover;
+}
+
+.Sin3 {
+  background-image: url(https://www.je-suis-papa.com/wp-content/uploads/2019/06/top-marques-vetement-enfant.png);
+  background-position: center;
+  padding: 8.3%;
+  background-size: cover;
+}
+
+.Siin {
+  width: 400px;
+  margin: 5% auto;
+  padding: 2%;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.Siin img{
+  width: 100%;
+}
+
+.Siin input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+.Siiin {
+  margin: 5%;
+  padding: 2%;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.Siiin-dispo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Siin button {
+  background-color: rgb(0, 195, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: medium;
+  color: rgb(19, 17, 17);
+  padding: 14px 20px;
+  margin: 4% 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.Siin button:hover {
+  background-color: rgb(18, 101, 126);
+  color: white;
+}
+
+.Siin button.btn {
+  background-color: white;
+  font-size: large;
+  color: rgb(19, 17, 17);
+  margin-bottom: 10%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 0%;
+}
+
+.Siin button.btn:hover,
+.Siin button.btn:focus {
+  background-color: rgb(145, 136, 136);
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
+
+.qte {
+  cursor: pointer;
+}
+
+/* Index */
+
+.vente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vente img {
+  max-width: 21rem;
+  max-height: 31rem;
+}
+
+.vente h3{
+  margin-top: 3%;
+}
+
+.achat {
+  max-width: 21rem;
+}
+
+.cover-img {
+  background-image: url(https://blogue.modechoc.ca/wp-content/uploads/2017/09/Untitled-design-11-1-1200x561.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cover-img div {
+  font-size: 250%;
+  font-weight: bold;
+  padding-top: 4%;
+}
+
+.cover-img div:hover {
+  color: rgb(29, 14, 160);
+}
+
+.vente div img{
+  height: 240px;
+}
+
+.re-size {
+  padding: 1%;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 8%;
+}
+
+/* CSS filter */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
+
+.filter div {
+  flex: 1;
+}
+
+.T-T{
+  margin: 4%;
+}
+
+.table{
+  border: rgb(88, 86, 86) solid !important;
+}
+
+/* Modal CSS */
+
+.produit-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-height: 96vh;
+}
+
+.produit-description img {
+  width: 24rem;
+  height: 24rem;
+}
+
+.titre-modal{
+  font-size: x-large;
+  font-weight: bolder;
+  color: blue;
+}
+
+.produit-description-detail {
+  flex: 1 1;
+  margin: 1rem;
+  margin-left: 2rem;
+}
+
+.close-modal {
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+  z-index: 1000;
+  width: 4rem;
+}
+
+.edit{
+  cursor: pointer;
+  font-size: x-large;
+}
+
+/* Command form */
+
+.form-commande {
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.form-container li {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.form-commande input {
+  padding: 0.5rem;
+  margin-left: 40%;
+  margin-right: 40%;
+  border: 0.1rem #c0c0c0 solid;
+}
+
+.bto{
+  margin-left: 40%;
+  margin-right: 40%;
+}
